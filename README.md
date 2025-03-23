@@ -10,12 +10,10 @@
 - [Overview](#overview)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
-- [Installation](#installation)
+- [Installations required](#installation)
 - [How it works?](#how-it-works)
   - [SegWit Transactions](#segwit-transactions)
   - [Legacy Transactions](#legacy-transactions)
-- [Results and Analysis](#results-and-analysis)
-- [Conclusion](#conclusion)
 
 ## Overview
 This project analyzes Bitcoin transactions by comparing **SegWit (Segregated Witness) transactions** with **Legacy transactions**. The analysis covers transaction size, weight, and efficiency to understand the improvements SegWit brings to the Bitcoin network.
@@ -35,7 +33,7 @@ The following are required to be installed:
 - A running Bitcoin Core node with RPC enabled
 - Bitcoin Core testnet setup with sufficient balance.
 
-### Install Dependencies
+### Installations required
 ```sh
 pip install python-bitcoinrpc
 ```
@@ -47,7 +45,7 @@ Modify the `rpc_user`, `rpc_password`, `rpc_host`, and `rpc_port` fields in the 
 - `Legacy.ipynb`: Demonstrates transactions using Legacy addresses (P2PKH).
 - `SegWit.ipynb`: Demonstrates using SegWit addresses (P2SH-SegWit and P2WPKH).
 
-## Features
+## How it Works?
 ### Legacy Transactions
 - Ensures the wallet is loaded or created.
 - Generates Legacy Bitcoin addresses (P2PKH).
